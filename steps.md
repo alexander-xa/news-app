@@ -14,3 +14,4 @@ RUN export ANDROID_SDK_ROOT=/flutter/bin/andriod-sdk
 RUN export PATH=$PATH:$ANDROID_SDK_ROOT/tools
 RUN source /etc/environment
 RUN apt install python3
+RUN apt install python3.11-venv
